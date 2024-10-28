@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #332200;
+            margin-bottom: 15px;
+        }
+
+        .message {
+            margin: 15px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Verification Email</h1>
+
+    <div class="message">
+        <p>Hello {{name}}</p>
+
+        <p>To complete your registration, please click the following link:</p>
+        <a href="{{verification_link}}">Verify your Email</a>
+    </div>
+    
+</body>
+</html>
